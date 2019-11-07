@@ -12,7 +12,7 @@ class Resultado extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 30),
       child: Container(
         width: 400,
-        height: 305,
+        height: 380,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.only(
             topRight: Radius.circular(20),
@@ -27,7 +27,7 @@ class Resultado extends StatelessWidget {
                 child: Column(
                   children: <Widget>[
                     SizedBox(
-                      height: 10,
+                      height: 20,
                     ),
                     Text(
                       "$result",
@@ -38,14 +38,14 @@ class Resultado extends StatelessWidget {
                       ),
                     ),
                     SizedBox(
-                      height: 10,
+                      height: 20,
                     ),
                   ],
                 ),
               ),
               Container(
                 width: 400,
-                height: 250,
+                height: 300,
                 child: ListView(
                   children: <Widget>[
                     ItemIMC(

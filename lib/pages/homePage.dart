@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
 
     print(result);
     setState(() {
-      _result = "O imc e: ${result.toStringAsPrecision(2)}";
+      _result = "Seu imc é: ${result.toStringAsFixed(2)}";
     });
     print("teste");
   }
